@@ -1,8 +1,8 @@
-import { Interaction } from "discord.js"
+import { Events, Interaction } from "discord.js"
 import { log } from "../services/logger"
 import { v4 as uuidv4 } from "uuid"
 module.exports = {
-	name: "interactionCreate",
+	name: Events.InteractionCreate,
 	once: false,
 	async execute(interaction: Interaction) {
 		if (!interaction.isChatInputCommand()) return

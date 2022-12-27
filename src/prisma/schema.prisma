@@ -1,0 +1,28 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider     = "mysql"
+  url          = env("DATABASE_URL_DEV")
+  relationMode = "prisma"
+}
+
+model watchedUser {
+	userId String @id @unique
+	addedAt DateTime @default(now())
+	addedBy String
+	lastCheckedAt DateTime @default(now())
+	avatarURL String
+	username String
+	discriminator String
+	flags Int
+	reason String?
+
+	@@index([userId])
+}
+
+
