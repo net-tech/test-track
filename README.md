@@ -1,4 +1,4 @@
-# Test-track
+# Test track
 
 A Discord bot with benchmarking and eval capabilities.
 
