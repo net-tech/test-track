@@ -40,7 +40,7 @@
 		"dotenv": "^16.0.3",
 		"eslint": "^8.36.0",
 		"global": "^4.4.0",
-		"global-kill": "file:../../../global-kill-1.0.0.tgz::locator=test-track%40workspace%3A.",
+		"global-kill": "^1.0.0",
 		"nanoid": "^4.0.1",
 		"rome": "^11.0.0",
 		"tslib": "^2.5.0"
