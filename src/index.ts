@@ -1,61 +1,62 @@
-import { Client, Collection, GatewayIntentBits } from "discord.js"
-import fs from "node:fs"
-import path from "node:path"
+import "./lib/setup.js"
+import { LogLevel, SapphireClient } from "@sapphire/framework"
+import { ActivityType, GatewayIntentBits, Partials } from "discord.js"
 import * as dotenv from "dotenv"
-import boot from "./services/boot"
+import { GlobalKill } from "global-kill"
 dotenv.config()
 
-export const client = new Client({
+const client = new SapphireClient({
+	defaultPrefix: process.env.DEFAULT_PREFIX,
+	caseInsensitiveCommands: true,
+	logger: {
+		level: LogLevel.Debug
+	},
+	shards: "auto",
 	intents: [
-		GatewayIntentBits.Guilds,
+		GatewayIntentBits.DirectMessageReactions,
+		GatewayIntentBits.DirectMessages,
+		GatewayIntentBits.GuildModeration,
+		GatewayIntentBits.GuildEmojisAndStickers,
 		GatewayIntentBits.GuildMembers,
-		GatewayIntentBits.GuildMessages
+		GatewayIntentBits.GuildMessageReactions,
+		GatewayIntentBits.GuildMessages,
+		GatewayIntentBits.Guilds,
+		GatewayIntentBits.GuildVoiceStates,
+		GatewayIntentBits.MessageContent
 	],
+	partials: [Partials.Channel],
+	loadMessageCommandListeners: true,
+	presence: {
+		status: "online",
+		activities: [
+			{
+				name: "with the API",
+				type: ActivityType.Playing
+			}
+		]
+	}
 })
 
-boot.init()
-
-/* Command Handling */
-
-client.commands = new Collection()
-
-const commandsPath = path.join(__dirname, "commands")
-// eslint-disable-next-line security/detect-non-literal-fs-filename
-const commandFiles = fs
-	.readdirSync(commandsPath)
-	.filter((file) => file.endsWith(".ts"))
-
-for (const file of commandFiles) {
-	const filePath = path.join(commandsPath, file)
-	// eslint-disable-next-line @typescript-eslint/no-var-requires, security/detect-non-literal-require
-	const command = require(filePath)
-	client.commands.set(command.data?.name, command)
-}
-
-/* Event Handling */
-
-const eventsPath = path.join(__dirname, "events")
-// eslint-disable-next-line security/detect-non-literal-fs-filename
-const eventFiles = fs
-	.readdirSync(eventsPath)
-	.filter((file) => file.endsWith(".ts"))
-
-for (const file of eventFiles) {
-	const filePath = path.join(eventsPath, file)
-	// eslint-disable-next-line @typescript-eslint/no-var-requires, security/detect-non-literal-require
-	const event = require(filePath)
-	if (event.once) {
-		client.once(event.name, (...args) => event.execute(...args))
-	} else {
-		client.on(event.name, (...args) => event.execute(...args))
+const main = async () => {
+	try {
+		client.logger.info("Logging in")
+		await client.login(process.env.DISCORD_TOKEN)
+		new GlobalKill.module("bench")
+		new GlobalKill.module("eval")
+		client.logger.info(
+			`Logged in as ${client.user?.username ?? "unknown name"}`
+		)
+	} catch (error) {
+		client.logger.fatal(error)
+		client.destroy()
+		process.exit(1)
 	}
 }
 
-declare module "discord.js" {
-	export interface Client {
-		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		commands: Collection<unknown, any>
-	}
-}
+process.on("SIGKILL", () => {
+	client.logger.info("Received SIGKILL signal, exiting")
+	client.destroy()
+	process.exit(0)
+})
 
-client.login(process.env.DISCORD_TOKEN)
+main()

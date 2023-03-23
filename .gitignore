@@ -1,3 +1,37 @@
+# Ignore a blackhole and the folder for development
+node_modules/
+.vs/
+.idea/
+*.iml
+
+# Yarn files
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Environment variables
+.DS_Store
+.dccache
+
+dist/
+
+# Ignore the config file (contains sensitive information such as tokens)
+config.ts
+
+# Ignore heapsnapshot and log files
+*.heapsnapshot
+*.log
+
+# Ignore npm lockfiles file
+package-lock.json
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 .env
-node_modules
-dist
