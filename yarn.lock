@@ -372,15 +372,15 @@ __metadata:
   linkType: hard
 
 "@sapphire/plugin-api@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "@sapphire/plugin-api@npm:5.0.1"
+  version: 5.0.2
+  resolution: "@sapphire/plugin-api@npm:5.0.2"
   dependencies:
     "@types/psl": ^1.1.0
     "@types/ws": ^8.5.4
     psl: ^1.9.0
     tslib: ^2.5.0
-    undici: ^5.20.0
-  checksum: 82c6fd9d48f07c7912e47992c5d46cf1b461fc1ac4348f6c5a3d08395274a74619c769fe5c244fbdb36d7def4a03bca71f9c066bd83d54d55e202bf11e5991a7
+    undici: ^5.21.0
+  checksum: 50e81a35dbfbadb70d37253ee5f0587a8e1c4fca4c88d35b6f1c2112e663a1e8d0197f655e8ee8dc0f2a0870481829e1929567f6481ca44a00d447aa8953f482
   languageName: node
   linkType: hard
 
@@ -3356,15 +3356,6 @@ __metadata:
     has-symbols: ^1.0.3
     which-boxed-primitive: ^1.0.2
   checksum: b7a1cf5862b5e4b5deb091672ffa579aa274f648410009c81cca63fed3b62b610c4f3b773f912ce545bb4e31edc3138975b5bc777fc6e4817dca51affb6380e9
-  languageName: node
-  linkType: hard
-
-"undici@npm:^5.20.0":
-  version: 5.20.0
-  resolution: "undici@npm:5.20.0"
-  dependencies:
-    busboy: ^1.6.0
-  checksum: 25412a785b2bd0b12f0bb0ec47ef00aa7a611ca0e570cb7af97cffe6a42e0d78e4b15190363a43771e9002defc3c6647c1b2d52201b3f64e2196819db4d150d3
   languageName: node
   linkType: hard
 
