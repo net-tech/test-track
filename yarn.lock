@@ -350,15 +350,15 @@ __metadata:
   linkType: hard
 
 "@sapphire/plugin-api@npm:^5.0.1":
-  version: 5.0.2
-  resolution: "@sapphire/plugin-api@npm:5.0.2"
+  version: 5.0.3
+  resolution: "@sapphire/plugin-api@npm:5.0.3"
   dependencies:
     "@types/psl": ^1.1.0
     "@types/ws": ^8.5.4
     psl: ^1.9.0
     tslib: ^2.5.0
-    undici: ^5.21.0
-  checksum: 50e81a35dbfbadb70d37253ee5f0587a8e1c4fca4c88d35b6f1c2112e663a1e8d0197f655e8ee8dc0f2a0870481829e1929567f6481ca44a00d447aa8953f482
+    undici: ^5.21.2
+  checksum: 74f6ebad8759330f5061fd4565cd8a24f88d80bf8fddf9e193517e99ff7bfaa28361f1d158482d53c0042349c11eb47c0504e1b273984f315df6cbad9914c51d
   languageName: node
   linkType: hard
 
@@ -3329,6 +3329,15 @@ __metadata:
   dependencies:
     busboy: ^1.6.0
   checksum: 013d5fd503b631d607942c511c2ab3f3fa78ebcab302acab998b43176b4815503ec15ed9752c5a47918b3bff8a0137768001d3eb57625b2bb6f6d30d8a794d6c
+  languageName: node
+  linkType: hard
+
+"undici@npm:^5.21.2":
+  version: 5.21.2
+  resolution: "undici@npm:5.21.2"
+  dependencies:
+    busboy: ^1.6.0
+  checksum: baceaa9e610966631e86ad2869b657556dd465438eed55e8079cec2a306ecbeecfde2d6e37e43baf96a4c59588ebef50476131e96e018dcc0a7f5db7e6a06c85
   languageName: node
   linkType: hard
 
