@@ -1512,9 +1512,9 @@ __metadata:
   linkType: hard
 
 "global-kill@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "global-kill@npm:1.0.0"
-  checksum: a7c107921a4e33aea99bf5bd376d1c9d61d158c12a87a5aae085411d926bd3fade96d2e15b52f064fab89910d87870cf9f02d9b2a858d8c5bc720c79729efb56
+  version: 1.0.1
+  resolution: "global-kill@npm:1.0.1"
+  checksum: d79634d2162f5391509fc67835daa69a26c7ad6822a621402c7054f26dbb31b83d10183f3ef975f7a7825e9f80ff0a4db0bd51738ee74abc8f9c8feccdff220d
   languageName: node
   linkType: hard
 
