@@ -216,44 +216,44 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rometools/cli-darwin-arm64@npm:12.0.0":
-  version: 12.0.0
-  resolution: "@rometools/cli-darwin-arm64@npm:12.0.0"
+"@rometools/cli-darwin-arm64@npm:12.1.0":
+  version: 12.1.0
+  resolution: "@rometools/cli-darwin-arm64@npm:12.1.0"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rometools/cli-darwin-x64@npm:12.0.0":
-  version: 12.0.0
-  resolution: "@rometools/cli-darwin-x64@npm:12.0.0"
+"@rometools/cli-darwin-x64@npm:12.1.0":
+  version: 12.1.0
+  resolution: "@rometools/cli-darwin-x64@npm:12.1.0"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@rometools/cli-linux-arm64@npm:12.0.0":
-  version: 12.0.0
-  resolution: "@rometools/cli-linux-arm64@npm:12.0.0"
+"@rometools/cli-linux-arm64@npm:12.1.0":
+  version: 12.1.0
+  resolution: "@rometools/cli-linux-arm64@npm:12.1.0"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rometools/cli-linux-x64@npm:12.0.0":
-  version: 12.0.0
-  resolution: "@rometools/cli-linux-x64@npm:12.0.0"
+"@rometools/cli-linux-x64@npm:12.1.0":
+  version: 12.1.0
+  resolution: "@rometools/cli-linux-x64@npm:12.1.0"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@rometools/cli-win32-arm64@npm:12.0.0":
-  version: 12.0.0
-  resolution: "@rometools/cli-win32-arm64@npm:12.0.0"
+"@rometools/cli-win32-arm64@npm:12.1.0":
+  version: 12.1.0
+  resolution: "@rometools/cli-win32-arm64@npm:12.1.0"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rometools/cli-win32-x64@npm:12.0.0":
-  version: 12.0.0
-  resolution: "@rometools/cli-win32-x64@npm:12.0.0"
+"@rometools/cli-win32-x64@npm:12.1.0":
+  version: 12.1.0
+  resolution: "@rometools/cli-win32-x64@npm:12.1.0"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -1511,10 +1511,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"global-kill@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "global-kill@npm:1.0.0"
-  checksum: a7c107921a4e33aea99bf5bd376d1c9d61d158c12a87a5aae085411d926bd3fade96d2e15b52f064fab89910d87870cf9f02d9b2a858d8c5bc720c79729efb56
+"global-kill@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "global-kill@npm:1.0.1"
+  checksum: d79634d2162f5391509fc67835daa69a26c7ad6822a621402c7054f26dbb31b83d10183f3ef975f7a7825e9f80ff0a4db0bd51738ee74abc8f9c8feccdff220d
   languageName: node
   linkType: hard
 
@@ -2756,16 +2756,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rome@npm:^12.0.0":
-  version: 12.0.0
-  resolution: "rome@npm:12.0.0"
+"rome@npm:^12.1.0":
+  version: 12.1.0
+  resolution: "rome@npm:12.1.0"
   dependencies:
-    "@rometools/cli-darwin-arm64": 12.0.0
-    "@rometools/cli-darwin-x64": 12.0.0
-    "@rometools/cli-linux-arm64": 12.0.0
-    "@rometools/cli-linux-x64": 12.0.0
-    "@rometools/cli-win32-arm64": 12.0.0
-    "@rometools/cli-win32-x64": 12.0.0
+    "@rometools/cli-darwin-arm64": 12.1.0
+    "@rometools/cli-darwin-x64": 12.1.0
+    "@rometools/cli-linux-arm64": 12.1.0
+    "@rometools/cli-linux-x64": 12.1.0
+    "@rometools/cli-win32-arm64": 12.1.0
+    "@rometools/cli-win32-x64": 12.1.0
   dependenciesMeta:
     "@rometools/cli-darwin-arm64":
       optional: true
@@ -2781,7 +2781,7 @@ __metadata:
       optional: true
   bin:
     rome: bin/rome
-  checksum: e26adcf06da28ec61b048b69f0387ad72c0f105444cb59f633f330aa9975e382f4055c6d17748e6630b303a33d87c5a3a0fc465bbb1054b74b88f01d14a70529
+  checksum: c21df579dad347b4979caa12bcacabf6bb0ca259da9d2526071fddb7598ff234536549cd9e1cc04541cc55076d9995868ff0abe359c9b660f04449389fcb0d83
   languageName: node
   linkType: hard
 
@@ -3171,11 +3171,11 @@ __metadata:
     dotenv: ^16.0.3
     eslint: ^8.40.0
     global: ^4.4.0
-    global-kill: ^1.0.0
+    global-kill: ^1.0.1
     nanoid: ^4.0.1
     npm-run-all: ^4.1.5
     prettier: ^2.8.7
-    rome: ^12.0.0
+    rome: ^12.1.0
     tsc-watch: ^6.0.4
     tslib: ^2.5.0
     typescript: ^5.0.4
