@@ -38,11 +38,11 @@
 		"discord-api-types": "^0.37.36",
 		"discord.js": "^14.11.0",
 		"dotenv": "^16.0.3",
-		"eslint": "^8.40.0",
+		"eslint": "^8.41.0",
 		"global": "^4.4.0",
 		"global-kill": "^1.0.1",
 		"nanoid": "^4.0.1",
-		"rome": "^12.1.0",
+		"rome": "^12.1.2",
 		"tslib": "^2.5.0"
 	},
 	"devDependencies": {
