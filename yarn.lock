@@ -130,10 +130,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:8.42.0":
-  version: 8.42.0
-  resolution: "@eslint/js@npm:8.42.0"
-  checksum: 750558843ac458f7da666122083ee05306fc087ecc1e5b21e7e14e23885775af6c55bcc92283dff1862b7b0d8863ec676c0f18c7faf1219c722fe91a8ece56b6
+"@eslint/js@npm:8.43.0":
+  version: 8.43.0
+  resolution: "@eslint/js@npm:8.43.0"
+  checksum: 580487a09c82ac169744d36e4af77bc4f582c9a37749d1e9481eb93626c8f3991b2390c6e4e69e5642e3b6e870912b839229a0e23594fae348156ea5a8ed7e2e
   languageName: node
   linkType: hard
 
@@ -369,15 +369,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/plugin-api@npm:^5.0.4":
-  version: 5.0.4
-  resolution: "@sapphire/plugin-api@npm:5.0.4"
+"@sapphire/plugin-api@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@sapphire/plugin-api@npm:5.1.0"
   dependencies:
-    "@types/ws": ^8.5.4
-    tldts: ^6.0.4
-    tslib: ^2.5.0
-    undici: ^5.22.0
-  checksum: 476d8f281484fa03560bef181dff1a6e87c1d1a017361134071bc9dcccb9f13e513b9e4be364b3c5bfca8019e3e90446b4d62f9cfd9d7ede203e79aa1fae0452
+    "@types/ws": ^8.5.5
+    tldts: ^6.0.5
+    tslib: ^2.5.3
+    undici: ^5.22.1
+  checksum: f8aa319490f063007470dcfc13c78dc2dcd84ef00f4532496c388a9accef2b7c3e5ed6a66d8a8d255dbb43333d9a925d6595cb6fd4fbd11eb35d1a5f75e5c6a6
   languageName: node
   linkType: hard
 
@@ -522,13 +522,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@skyra/env-utilities@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "@skyra/env-utilities@npm:1.2.0"
+"@skyra/env-utilities@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "@skyra/env-utilities@npm:1.2.1"
   dependencies:
-    dotenv: ^16.0.3
+    dotenv: ^16.3.0
     dotenv-expand: ^10.0.0
-  checksum: 977d46bca06cc0578786c9acef0978f54adbfcd248d6b57c6376a59d18685b8666c5ec36df47ad8c1216b0cc2b301977dacf0d920dde2564f2350a407c334c3b
+  checksum: a2695d2ce23a90d33a0de41c8edfb63599740528b82c93df395ea13163b84c48ce76423bbfaf99c49e54cb22e112fad90126c4616a4da9dbee702b625640921c
   languageName: node
   linkType: hard
 
@@ -560,10 +560,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.16.17":
-  version: 18.16.17
-  resolution: "@types/node@npm:18.16.17"
-  checksum: 2f7e3a552d525ef4b7a2620ef5ef59b3fdfb1d8ab20627b537e090732b35c2bd103944933d347a319cc7d478b3866b0d1bc3d629ee5899ca663a4547ca078cee
+"@types/node@npm:^18.16.18":
+  version: 18.16.18
+  resolution: "@types/node@npm:18.16.18"
+  checksum: d32d8a0a04cd3f5ecb361bcb42f3a07623881ac90d680e06bf626defb3c663a94860d11690babe607cfe67265eceeb8a59ba5fe40c0e49f5a1b01e0088640469
   languageName: node
   linkType: hard
 
@@ -1036,10 +1036,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.0.3, dotenv@npm:^16.1.4":
-  version: 16.1.4
-  resolution: "dotenv@npm:16.1.4"
-  checksum: c1b2e13df4d374a6a29e134c56c7b040ba20500677fe8b9939ea654f3b3badb9aaa0b172e40e4dfa1233a4177dbb8fb79d84cc79a50ac9c9641fe2ad98c14876
+"dotenv@npm:^16.1.4, dotenv@npm:^16.3.0":
+  version: 16.3.1
+  resolution: "dotenv@npm:16.3.1"
+  checksum: 15d75e7279018f4bafd0ee9706593dd14455ddb71b3bcba9c52574460b7ccaf67d5cf8b2c08a5af1a9da6db36c956a04a1192b101ee102a3e0cf8817bbcf3dfd
   languageName: node
   linkType: hard
 
@@ -1183,14 +1183,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.41.0":
-  version: 8.42.0
-  resolution: "eslint@npm:8.42.0"
+"eslint@npm:^8.43.0":
+  version: 8.43.0
+  resolution: "eslint@npm:8.43.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@eslint-community/regexpp": ^4.4.0
     "@eslint/eslintrc": ^2.0.3
-    "@eslint/js": 8.42.0
+    "@eslint/js": 8.43.0
     "@humanwhocodes/config-array": ^0.11.10
     "@humanwhocodes/module-importer": ^1.0.1
     "@nodelib/fs.walk": ^1.2.8
@@ -1228,7 +1228,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: 07105397b5f2ff4064b983b8971e8c379ec04b1dfcc9d918976b3e00377189000161dac991d82ba14f8759e466091b8c71146f602930ca810c290ee3fcb3faf0
+  checksum: 55654ce00b0d128822b57526e40473d0497c7c6be3886afdc0b41b6b0dfbd34d0eae8159911b18451b4db51a939a0e6d2e117e847ae419086884fc3d4fe23c7c
   languageName: node
   linkType: hard
 
@@ -3147,7 +3147,7 @@ __metadata:
     "@sapphire/fetch": ^2.4.1
     "@sapphire/framework": ^4.4.4
     "@sapphire/pieces": ^3.6.1
-    "@sapphire/plugin-api": ^5.0.4
+    "@sapphire/plugin-api": ^5.1.0
     "@sapphire/plugin-editable-commands": ^3.0.2
     "@sapphire/plugin-logger": ^3.0.4
     "@sapphire/plugin-subcommands": ^4.0.1
@@ -3157,16 +3157,16 @@ __metadata:
     "@sapphire/ts-config": ^4.0.0
     "@sapphire/type": ^2.4.0
     "@sapphire/utilities": ^3.11.1
-    "@skyra/env-utilities": ^1.2.0
+    "@skyra/env-utilities": ^1.2.1
     "@types/benchmark": ^2.1.2
-    "@types/node": ^18.16.17
+    "@types/node": ^18.16.18
     "@types/ws": ^8.5.5
     benchmark: ^2.1.4
     colorette: ^2.0.20
     discord-api-types: ^0.37.36
     discord.js: ^14.11.0
     dotenv: ^16.1.4
-    eslint: ^8.41.0
+    eslint: ^8.43.0
     global: ^4.4.0
     global-kill: ^1.0.1
     nanoid: ^4.0.1
@@ -3193,21 +3193,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tldts-core@npm:^6.0.4":
-  version: 6.0.4
-  resolution: "tldts-core@npm:6.0.4"
-  checksum: 0255b9cb1f979d6aaebad231ec2c129ec12fe319e50868c84a7b3549c27f56e14460bc086c71a3fc2ac3b7bda78926590be9cffbbc604b3a4e79d4c619bdc2d5
+"tldts-core@npm:^6.0.8":
+  version: 6.0.8
+  resolution: "tldts-core@npm:6.0.8"
+  checksum: c7ba552eb03cb1d4ebc08d48d5a81cf14f65efd9ef0d5b19724242dd45b596e0cf9c2be69140f658e931ac785f0e4e227f7c774a18ad7cd309a6057a5029f09d
   languageName: node
   linkType: hard
 
-"tldts@npm:^6.0.4":
-  version: 6.0.4
-  resolution: "tldts@npm:6.0.4"
+"tldts@npm:^6.0.5":
+  version: 6.0.8
+  resolution: "tldts@npm:6.0.8"
   dependencies:
-    tldts-core: ^6.0.4
+    tldts-core: ^6.0.8
   bin:
     tldts: bin/cli.js
-  checksum: 2ddc4b68764ddf80dd5f6b0012a70d425fcc4c99e2a873ff2543e090a8e86bd8a5e8520da59ecb0ab65588308c6941ad4357d2f4f12d3b48a2b487ef94c43fdc
+  checksum: 02908e6d5310c985598fd2c5beba245056a79b65a4c017228b33555bb8d17f55d670e248925c4910f6d4ff9a13e6a6e815a9bb26b87ff772062d195bdc4deed8
   languageName: node
   linkType: hard
 
@@ -3251,7 +3251,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.4.0, tslib@npm:^2.5.0, tslib@npm:^2.5.2":
+"tslib@npm:^2.4.0, tslib@npm:^2.5.0, tslib@npm:^2.5.2, tslib@npm:^2.5.3":
   version: 2.5.3
   resolution: "tslib@npm:2.5.3"
   checksum: 88902b309afaf83259131c1e13da1dceb0ad1682a213143a1346a649143924d78cf3760c448b84d796938fd76127183894f8d85cbb3bf9c4fddbfcc140c0003c
@@ -3317,12 +3317,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:^5.22.0":
-  version: 5.22.0
-  resolution: "undici@npm:5.22.0"
+"undici@npm:^5.22.0, undici@npm:^5.22.1":
+  version: 5.22.1
+  resolution: "undici@npm:5.22.1"
   dependencies:
     busboy: ^1.6.0
-  checksum: 8dc55240a60ae7680798df344e8f46ad0f872ed0fa434fb94cc4fd2b5b2f8053bdf11994d15902999d3880f9bf7cd875a2e90883d2702bf0f366dacd9cbf3fc6
+  checksum: 048a3365f622be44fb319316cedfaa241c59cf7f3368ae7667a12323447e1822e8cc3d00f6956c852d1478a6fde1cbbe753f49e05f2fdaed229693e716ebaf35
   languageName: node
   linkType: hard
 
