@@ -45,7 +45,7 @@
 		"tslib": "^2.6.0"
 	},
 	"devDependencies": {
-		"@sapphire/prettier-config": "^1.4.5",
+		"@sapphire/prettier-config": "^2.0.0",
 		"@sapphire/ts-config": "^4.0.0",
 		"@types/node": "^20.4.2",
 		"@types/ws": "^8.5.5",
