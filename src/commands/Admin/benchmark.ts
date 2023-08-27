@@ -13,7 +13,7 @@ export class UserCommand extends Command {
 				...options,
 				description: "Benchmark code directly in Discord.",
 				aliases: ["bench"],
-				preconditions: ["OwnerOnly", "Enabled"]
+				preconditions: ["OwnerOnly"]
 			})
 		}
 

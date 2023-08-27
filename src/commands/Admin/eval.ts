@@ -14,7 +14,7 @@ export class UserCommand extends Command {
 				aliases: ["ev"],
 				description: "Evaluates arbitrary Javascript.",
 				quotes: [],
-				preconditions: ["OwnerOnly", "Enabled"],
+				preconditions: ["OwnerOnly"],
 				flags: ["async", "hidden", "showHidden", "silent", "s"],
 				options: ["depth"]
 			})

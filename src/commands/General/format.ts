@@ -55,6 +55,14 @@ export class UserCommand extends Command {
 					trailingComma: "none",
 					proseWrap: "never",				
 				})
+					.catch((error) => {
+						interaction.reply({
+							content: `Unable to format code. Check your syntax. \`\`\`${error}\`\`\``,
+							ephemeral: true
+						})
+						return null
+					})
+				if (!formattedCode) return
 
 				formattedCodeBlocks.push(
 					`\`\`\`${lang ?? ''}\n${formattedCode}\`\`\``
@@ -63,6 +71,7 @@ export class UserCommand extends Command {
 
 			return interaction.reply({
 				content: formattedCodeBlocks.join('\n'),
+				ephemeral: true
 			})
 		}
 	}

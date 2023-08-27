@@ -71,9 +71,6 @@ dependencies:
   global:
     specifier: ^4.4.0
     version: 4.4.0
-  global-kill:
-    specifier: ^1.0.1
-    version: 1.0.1
   nanoid:
     specifier: ^4.0.2
     version: 4.0.2
@@ -1169,11 +1166,6 @@ packages:
       minimatch: 3.1.2
       once: 1.4.0
       path-is-absolute: 1.0.1
-    dev: false
-
-  /global-kill@1.0.1:
-    resolution: {integrity: sha512-k95yCcKXBY0RciJcdzZ2hWjwSnKZHa6ar2FQr/8i8OwdYwXUDn5YZWAtkB8k2Q2OLQQJDrWBrrUN0n+1d0aBKQ==}
-    engines: {node: '>=16.0'}
     dev: false
 
   /global@4.4.0:

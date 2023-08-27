@@ -42,7 +42,8 @@ export class UserCommand extends Command {
 		}
 
 		return interaction.reply({
-			content: `${codeBlock("js", lines.join("\n"))}`
+			content: `${codeBlock("js", lines.join("\n"))}`,
+			ephemeral: true
 		})
 	}
 }

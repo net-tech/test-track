@@ -41,8 +41,6 @@ const main = async () => {
 	try {
 		client.logger.info("Logging in")
 		await client.login(process.env.DISCORD_TOKEN)
-		new GlobalKill.module("bench")
-		new GlobalKill.module("eval")
 		client.logger.info(
 			`Logged in as ${client.user?.username ?? "unknown name"}`
 		)
