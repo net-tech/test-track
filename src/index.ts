@@ -2,7 +2,6 @@ import "./lib/setup.js"
 import { LogLevel, SapphireClient } from "@sapphire/framework"
 import { ActivityType, GatewayIntentBits, Partials } from "discord.js"
 import * as dotenv from "dotenv"
-import { GlobalKill } from "global-kill"
 dotenv.config()
 
 const client = new SapphireClient({
