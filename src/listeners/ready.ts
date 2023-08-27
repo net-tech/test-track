@@ -1,5 +1,3 @@
-// rome-ignore lint/correctness/noUnusedVariables: decorator
-import { ApplyOptions } from "@sapphire/decorators"
 import { Listener, Store } from "@sapphire/framework"
 import {
 	blue,
@@ -13,7 +11,6 @@ import {
 
 const dev = process.env.NODE_ENV !== "production"
 
-@ApplyOptions<Listener.Options>({ once: true })
 export class UserEvent extends Listener {
 	private readonly style = dev ? yellow : blue
 
@@ -51,13 +48,14 @@ ${line03}${
 	private printStoreDebugInformation() {
 		const { client, logger } = this.container
 		const stores = [...client.stores.values()]
+		// rome-ignore lint/style/noNonNullAssertion:
 		const last = stores.pop()!
 
 		for (const store of stores) logger.info(this.styleStore(store, false))
 		logger.info(this.styleStore(last, true))
 	}
 
-	// rome-ignore lint/suspicious/noExplicitAny: <explanation>
+	// rome-ignore lint/suspicious/noExplicitAny:
 	private styleStore(store: Store<any>, last: boolean) {
 		return gray(
 			`${last ? "└─" : "├─"} Loaded ${this.style(

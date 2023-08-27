@@ -53,10 +53,4 @@ const main = async () => {
 	}
 }
 
-process.on("SIGKILL", () => {
-	client.logger.info("Received SIGKILL signal, exiting")
-	client.destroy()
-	process.exit(0)
-})
-
 main()
