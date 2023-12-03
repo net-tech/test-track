@@ -40,7 +40,7 @@
 		"eslint": "^8.48.0",
 		"global": "^4.4.0",
 		"nanoid": "^4.0.2",
-		"rome": "^12.1.3",
+		"@biomejs/biome": "^1.0.0",
 		"tslib": "^2.6.2"
 	},
 	"devDependencies": {
