@@ -1,7 +1,8 @@
 {
-	"$schema": "./node_modules/rome/configuration_schema.json",
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
 	"files": {
-		"ignore": ["dist", ".pnp.cjs", ".pnp.loader.mjs"]
+		"ignore": ["dist", "./.idea", "./.dccache"],
+		"ignoreUnknown": true
 	},
 	"linter": {
 		"enabled": true,
@@ -17,5 +18,8 @@
 			"semicolons": "asNeeded",
 			"trailingComma": "none"
 		}
+	},
+	"organizeImports": {
+		"enabled": true
 	}
 }

@@ -1,14 +1,14 @@
 // Unless explicitly defined, set NODE_ENV as development:
 process.env.NODE_ENV ??= "development"
 
+import { dirname, join } from "path"
+import { fileURLToPath } from "url"
+import { inspect } from "util"
 import "@sapphire/plugin-api/register"
 import "@sapphire/plugin-editable-commands/register"
 import "@sapphire/plugin-logger/register"
 import { setup } from "@skyra/env-utilities"
 import * as colorette from "colorette"
-import { dirname, join } from "path"
-import { fileURLToPath } from "url"
-import { inspect } from "util"
 
 const __filename = fileURLToPath(import.meta.url)
 

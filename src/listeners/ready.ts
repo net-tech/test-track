@@ -48,14 +48,14 @@ ${line03}${
 	private printStoreDebugInformation() {
 		const { client, logger } = this.container
 		const stores = [...client.stores.values()]
-		// rome-ignore lint/style/noNonNullAssertion:
+		// biome-ignore lint/style/noNonNullAssertion:
 		const last = stores.pop()!
 
 		for (const store of stores) logger.info(this.styleStore(store, false))
 		logger.info(this.styleStore(last, true))
 	}
 
-	// rome-ignore lint/suspicious/noExplicitAny:
+	// biome-ignore lint/suspicious/noExplicitAny:
 	private styleStore(store: Store<any>, last: boolean) {
 		return gray(
 			`${last ? "└─" : "├─"} Loaded ${this.style(
