@@ -9,8 +9,8 @@ dependencies:
     specifier: ^3.2.1
     version: 3.2.1
   '@sapphire/discord.js-utilities':
-    specifier: 7.1.5
-    version: 7.1.5
+    specifier: 7.1.6
+    version: 7.1.6
   '@sapphire/fetch':
     specifier: ^3.0.1
     version: 3.0.1
@@ -390,18 +390,30 @@ packages:
       discord-api-types: 0.37.67
     dev: false
 
-  /@sapphire/discord.js-utilities@7.1.5:
-    resolution: {integrity: sha512-632ka/jaco6+cbTVCyO+gna4g2ExAZ4zpRw9xwwkKrjfvj2g2N8kcrpdLCoLO9AwCg/Ay0yKsgcafESzGdqLqg==}
+  /@sapphire/discord-utilities@3.2.2:
+    resolution: {integrity: sha512-lJZMV89wt2Vuq9Sra44rK9gONrLpL6INd9CEI01r+lGdbix+EWceQR7SLESzw1+oD12v6gfMOUQUjgy0mFUk1g==}
+    engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
+    dependencies:
+      discord-api-types: 0.37.67
+    dev: false
+
+  /@sapphire/discord.js-utilities@7.1.6:
+    resolution: {integrity: sha512-rOSs1xUOSLkqF6MXGtAOFtxYqzCoIIHImMFXftIxIdn38PNsLJNMWjf18bIVRMDMduVXtfROF7PLXxSp/CpLaw==}
     engines: {node: '>=16.6.0', npm: '>=7.0.0'}
     dependencies:
-      '@sapphire/discord-utilities': 3.2.1
-      '@sapphire/duration': 1.1.1
-      '@sapphire/utilities': 3.15.2
+      '@sapphire/discord-utilities': 3.2.2
+      '@sapphire/duration': 1.1.2
+      '@sapphire/utilities': 3.15.3
       tslib: 2.6.2
     dev: false
 
   /@sapphire/duration@1.1.1:
     resolution: {integrity: sha512-c6+ZvVEmZ82+G5aZOz8QbTLNY1nN0j/fxykFNULnmoc2WspFO7PbXUDZMeHQoanWbFRC83U2DszhF2Zl5BwjrA==}
+    engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
+    dev: false
+
+  /@sapphire/duration@1.1.2:
+    resolution: {integrity: sha512-m+DpXedUHdnH3rM6P9Hiyb9dpdXKb8WeTAVIug0QuN8tarQedbymbOor+UFmBfCbKOkoW9HvGK10xDwDvSfKrw==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
@@ -416,7 +428,7 @@ packages:
     dependencies:
       '@discordjs/builders': 1.7.0
       '@sapphire/discord-utilities': 3.2.1
-      '@sapphire/discord.js-utilities': 7.1.5
+      '@sapphire/discord.js-utilities': 7.1.6
       '@sapphire/lexure': 1.1.6
       '@sapphire/pieces': 4.2.0
       '@sapphire/ratelimits': 2.4.8
@@ -554,6 +566,11 @@ packages:
 
   /@sapphire/utilities@3.15.2:
     resolution: {integrity: sha512-pp4+8wHK8C1oFMjA1nwGXT7rgf41NzlRlJi9QIy+PGOOEHjuaUHQRgfzghkJgSJtSKjjoO9KxBQ8YmyCnjlu+g==}
+    engines: {node: '>=v14.0.0'}
+    dev: false
+
+  /@sapphire/utilities@3.15.3:
+    resolution: {integrity: sha512-K5dFGOB5XvblXFN+Av+Tch/dVBAifmxtZ9/2mFo8VqzbiaFJIRUuoPAoNsp8pWYaU423yV8bfD8WsCSNd9w1YQ==}
     engines: {node: '>=v14.0.0'}
     dev: false
 
