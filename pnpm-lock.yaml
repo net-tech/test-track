@@ -25,7 +25,7 @@ dependencies:
     version: 6.1.0
   '@sapphire/plugin-editable-commands':
     specifier: ^4.0.1
-    version: 4.0.1
+    version: 4.0.2
   '@sapphire/plugin-logger':
     specifier: ^4.0.1
     version: 4.0.1
@@ -451,8 +451,8 @@ packages:
       undici: 6.3.0
     dev: false
 
-  /@sapphire/plugin-editable-commands@4.0.1:
-    resolution: {integrity: sha512-Xv9W99DphGdvJ2k/XvBVNynMOmQefYtAIwaHS0QderHOmpdLIo9RDbot7fq5gLjH+KtagpvlnGIbBUX1CZ0bOw==}
+  /@sapphire/plugin-editable-commands@4.0.2:
+    resolution: {integrity: sha512-m/5sQfGKYdWW+Od6JOVYV3ZsQtVMmY5SbvlTXcv0VxtP8VE0eTjMyb7qV1SEFCxnyuz22RDTJA/V5B2KhVLt1Q==}
     engines: {node: '>=v18', npm: '>=7'}
     dependencies:
       '@skyra/editable-commands': 3.0.1
