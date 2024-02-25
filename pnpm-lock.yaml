@@ -22,7 +22,7 @@ dependencies:
     version: 4.2.0
   '@sapphire/plugin-api':
     specifier: ^6.1.0
-    version: 6.1.0
+    version: 6.1.1
   '@sapphire/plugin-editable-commands':
     specifier: ^4.0.1
     version: 4.0.1
@@ -441,14 +441,14 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@sapphire/plugin-api@6.1.0:
-    resolution: {integrity: sha512-qeWMNUnwTED8gQueba8QhaA1r0xB19mqiq6EpcwoTyc2Tmqjh57aM8mSq0zOJicJ4Cm0wdqSowKEQb9fnOfhBg==}
+  /@sapphire/plugin-api@6.1.1:
+    resolution: {integrity: sha512-/Znz+AvNvnOwdKw+iehb2ZDDqQk0p9/Ls7WaXxeIsv3alPn/70/Q4i+WjoXFeG6T9KGCv110quJRPc4kS4QPWg==}
     engines: {node: '>=v18', npm: '>=7'}
     dependencies:
       '@types/ws': 8.5.10
-      tldts: 6.1.2
+      tldts: 6.1.11
       tslib: 2.6.2
-      undici: 6.3.0
+      undici: 6.6.2
     dev: false
 
   /@sapphire/plugin-editable-commands@4.0.1:
@@ -2154,15 +2154,15 @@ packages:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
     dev: true
 
-  /tldts-core@6.1.2:
-    resolution: {integrity: sha512-cFBCCSilkRe/7JkZrQlzqhWDE0r1irpEYRp5XiFLFGl8fTwN4eWqutyx9wfFaDfmVv7E7pQMUZnM1VHnOid5Vw==}
+  /tldts-core@6.1.11:
+    resolution: {integrity: sha512-ZFcT+/fdEc5VRndQIJtArNBHsaq4udRoeE4E6cwLzGaH0dq7Ng2L7cAoea6riM2uhNFD09EDa1bN8lrfrOBCLg==}
     dev: false
 
-  /tldts@6.1.2:
-    resolution: {integrity: sha512-bmIVB9OKvYlNcEoCRpa2swYlLpAmhLvGlXMZ0pSzmbU+0S/LNZJwTzHB56Fom7m9XCVh+mf2RDyCTRgX6MRDjQ==}
+  /tldts@6.1.11:
+    resolution: {integrity: sha512-AAgE/IWvbsg4Lr4KGFNR7bL/MhQfBlgGV9UBg2uy5mCwSGi5f12eZ7ZydAqv4ACys6pUYjNoV2qfZdcCn4RS+Q==}
     hasBin: true
     dependencies:
-      tldts-core: 6.1.2
+      tldts-core: 6.1.11
     dev: false
 
   /tr46@0.0.3:
@@ -2265,8 +2265,8 @@ packages:
       '@fastify/busboy': 2.1.0
     dev: false
 
-  /undici@6.3.0:
-    resolution: {integrity: sha512-zkSMOXs2topAR1LF0PxAaNNvhdX4LYEcmRMJLMh3mjgfZpBtc/souXOp4aYiR5Q46HrBPA2/8DkEZhD3eNFE1Q==}
+  /undici@6.6.2:
+    resolution: {integrity: sha512-vSqvUE5skSxQJ5sztTZ/CdeJb1Wq0Hf44hlYMciqHghvz+K88U0l7D6u1VsndoFgskDcnU+nG3gYmMzJVzd9Qg==}
     engines: {node: '>=18.0'}
     dependencies:
       '@fastify/busboy': 2.1.0
