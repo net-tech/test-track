@@ -25,7 +25,7 @@ dependencies:
     version: 6.1.0
   '@sapphire/plugin-editable-commands':
     specifier: ^4.0.1
-    version: 4.0.1
+    version: 4.0.4
   '@sapphire/plugin-logger':
     specifier: ^4.0.1
     version: 4.0.1
@@ -451,11 +451,11 @@ packages:
       undici: 6.3.0
     dev: false
 
-  /@sapphire/plugin-editable-commands@4.0.1:
-    resolution: {integrity: sha512-Xv9W99DphGdvJ2k/XvBVNynMOmQefYtAIwaHS0QderHOmpdLIo9RDbot7fq5gLjH+KtagpvlnGIbBUX1CZ0bOw==}
+  /@sapphire/plugin-editable-commands@4.0.4:
+    resolution: {integrity: sha512-1Dd04IjZxYjPWupMJPAyOupWUvYNkhOAUdWhoIBRDRjy6eytOHYYD5TpH8QLXsfgbQNV/ETdWDG0IBVH/Vg/EA==}
     engines: {node: '>=v18', npm: '>=7'}
     dependencies:
-      '@skyra/editable-commands': 3.0.1
+      '@skyra/editable-commands': 3.0.4
     dev: false
 
   /@sapphire/plugin-logger@4.0.1:
@@ -557,8 +557,8 @@ packages:
     engines: {node: '>=v14.0.0'}
     dev: false
 
-  /@skyra/editable-commands@3.0.1:
-    resolution: {integrity: sha512-Dvx7k9D3XMVHT8+GTagh+/87RIOmYHx5uVsETFjUx3DutbTpNcynYsoHA+U4JcKSLj4ziR5zk0xgYOAMBNYIlw==}
+  /@skyra/editable-commands@3.0.4:
+    resolution: {integrity: sha512-wQQqOt/GVnKTY0yfL9AmBCvoNIRa/4COxMDYS/TcQexabdZlIfxG4up2zKz8A1or5+73meDZ/D/SvUav36/V2w==}
     engines: {node: '>=16.6', npm: '>=7.24.2'}
     dev: false
 
