@@ -31,7 +31,7 @@ dependencies:
     version: 4.0.1
   '@sapphire/plugin-subcommands':
     specifier: ^6.0.2
-    version: 6.0.2
+    version: 6.0.3
   '@sapphire/stopwatch':
     specifier: ^1.5.1
     version: 1.5.1
@@ -466,11 +466,11 @@ packages:
       colorette: 2.0.20
     dev: false
 
-  /@sapphire/plugin-subcommands@6.0.2:
-    resolution: {integrity: sha512-AXRIRK2dVxPP3+bsZlvzQjfSrPYAf5C6ueyxzp9gRZE9N5zXKbeAFyL/HeXFB+Hr2zne0zBgqeH25NMeblpm0A==}
+  /@sapphire/plugin-subcommands@6.0.3:
+    resolution: {integrity: sha512-SLDlTjMrMpb3s89ZjrBvVbMWsXfNNciO6SnNQdKLKTUQwktaYxIdj+k3MmEWpN19i8W9ogRvIrLl0Hw20pPUng==}
     engines: {node: '>=v18', npm: '>=7'}
     dependencies:
-      '@sapphire/utilities': 3.15.2
+      '@sapphire/utilities': 3.18.2
       tslib: 2.6.2
     dev: false
 
@@ -554,6 +554,11 @@ packages:
 
   /@sapphire/utilities@3.15.2:
     resolution: {integrity: sha512-pp4+8wHK8C1oFMjA1nwGXT7rgf41NzlRlJi9QIy+PGOOEHjuaUHQRgfzghkJgSJtSKjjoO9KxBQ8YmyCnjlu+g==}
+    engines: {node: '>=v14.0.0'}
+    dev: false
+
+  /@sapphire/utilities@3.18.2:
+    resolution: {integrity: sha512-QGLdC9+pT74Zd7aaObqn0EUfq40c4dyTL65pFnkM6WO1QYN7Yg/s4CdH+CXmx0Zcu6wcfCWILSftXPMosJHP5A==}
     engines: {node: '>=v14.0.0'}
     dev: false
 
