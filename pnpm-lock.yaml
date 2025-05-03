@@ -37,7 +37,7 @@ dependencies:
     version: 1.5.1
   '@sapphire/time-utilities':
     specifier: ^1.7.11
-    version: 1.7.11
+    version: 1.7.14
   '@sapphire/type':
     specifier: ^2.4.3
     version: 2.4.3
@@ -376,11 +376,11 @@ packages:
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
-  /@sapphire/cron@1.1.2:
-    resolution: {integrity: sha512-Yyo4dL/5Fqfvt//exNNZVnnYovS05iharOO+IdZyYwkU+Gyltb/al/rttbAH4cctXfcpW4aDlMJ7PFDxgtUCaA==}
+  /@sapphire/cron@1.2.1:
+    resolution: {integrity: sha512-K96GX4UkzgC/Y2VHXVjhM2Bl4D04552nr/fDiOj9bOACW1+wqeFfLJ3eV6jleTSXmzPIwDvkPIUJLf8A5KSD+w==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dependencies:
-      '@sapphire/utilities': 3.15.2
+      '@sapphire/utilities': 3.18.2
     dev: false
 
   /@sapphire/discord-utilities@3.2.1:
@@ -402,6 +402,11 @@ packages:
 
   /@sapphire/duration@1.1.1:
     resolution: {integrity: sha512-c6+ZvVEmZ82+G5aZOz8QbTLNY1nN0j/fxykFNULnmoc2WspFO7PbXUDZMeHQoanWbFRC83U2DszhF2Zl5BwjrA==}
+    engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
+    dev: false
+
+  /@sapphire/duration@1.2.0:
+    resolution: {integrity: sha512-LxjOAFXz81WmrI8XX9YaVcAZDjQj/1p78lZCvkAWZB1nphOwz/D0dU3CBejmhOWx5dO5CszTkLJMNR0xuCK+Zg==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
@@ -511,23 +516,28 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@sapphire/time-utilities@1.7.11:
-    resolution: {integrity: sha512-xvEs4wVQeddE5hl4nz4CUXpX8K4fNyYiatSVGTY3KWybqOIWD+JtdFqa/+7ER+fPoDuF6Ro6vDYddVb6dcBapQ==}
+  /@sapphire/time-utilities@1.7.14:
+    resolution: {integrity: sha512-UVJQ9oyzXcmJVVf9Y9ucGzRmKoPxe6SehpQlBNTX7CTVu0aj1lrEGL+bBa0Mu7hxF5DYXYjDYeO1e5BR0eg90Q==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dependencies:
-      '@sapphire/cron': 1.1.2
-      '@sapphire/duration': 1.1.1
-      '@sapphire/timer-manager': 1.0.1
-      '@sapphire/timestamp': 1.0.2
+      '@sapphire/cron': 1.2.1
+      '@sapphire/duration': 1.2.0
+      '@sapphire/timer-manager': 1.0.4
+      '@sapphire/timestamp': 1.0.5
     dev: false
 
-  /@sapphire/timer-manager@1.0.1:
-    resolution: {integrity: sha512-axX9vuQI6e2gCcUZ/3yCbo415O8p61DZ7bHL6VloVySk6U3O3HzONnl0CGEcczwqKGZ4Ujga0Qj4izdulgu2SA==}
+  /@sapphire/timer-manager@1.0.4:
+    resolution: {integrity: sha512-gc1JW8oui86f2l0T/1Iwd7hZTgus8b46slitTR2y0+wiMAEYxdp6vVTHvMAEHOqX8drkxK70aGfZmQKbAcgFqQ==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
   /@sapphire/timestamp@1.0.2:
     resolution: {integrity: sha512-Jn5armLFr3Z9u9CTF9h9qWFy0rFKA4UlalRPSAF9KL0xbXTSTLEJyZrRoTtQwLGcuXdSaaLc/u9Ywy4oW2eTEw==}
+    engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
+    dev: false
+
+  /@sapphire/timestamp@1.0.5:
+    resolution: {integrity: sha512-oNwWyNdbt5wm4aYZvlHl1+64U3g0xrFmRIHsnER7RgMxNnp/wmAE4yTK2oUHeadg3t4V9iYctPAQCF+aINke4g==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
@@ -554,6 +564,11 @@ packages:
 
   /@sapphire/utilities@3.15.2:
     resolution: {integrity: sha512-pp4+8wHK8C1oFMjA1nwGXT7rgf41NzlRlJi9QIy+PGOOEHjuaUHQRgfzghkJgSJtSKjjoO9KxBQ8YmyCnjlu+g==}
+    engines: {node: '>=v14.0.0'}
+    dev: false
+
+  /@sapphire/utilities@3.18.2:
+    resolution: {integrity: sha512-QGLdC9+pT74Zd7aaObqn0EUfq40c4dyTL65pFnkM6WO1QYN7Yg/s4CdH+CXmx0Zcu6wcfCWILSftXPMosJHP5A==}
     engines: {node: '>=v14.0.0'}
     dev: false
 
